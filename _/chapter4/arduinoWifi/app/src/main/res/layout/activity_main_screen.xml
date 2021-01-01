@@ -1,0 +1,76 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch On"
+        android:id="@+id/switchOnButton"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/openGateButton"
+        android:layout_alignEnd="@+id/openGateButton"
+        android:layout_marginRight="66dp"
+        android:background="@drawable/button"
+        android:textColor="#4A90E2"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch Off"
+        android:id="@+id/switchOffButton"
+        android:layout_alignTop="@+id/switchOnButton"
+        android:layout_alignLeft="@+id/openGateButton"
+        android:layout_alignStart="@+id/openGateButton"
+        android:layout_marginLeft="75dp"
+        android:background="@drawable/button"
+        android:textColor="#4A90E2"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Power"
+        android:id="@+id/checkPowerButton"
+        android:layout_below="@+id/switchOffButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#4A90E2"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100W"
+        android:textSize="100sp"
+        android:id="@+id/powerOutput"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:textColor="#4A90E2"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open the Gate"
+        android:id="@+id/openGateButton"
+        android:layout_above="@+id/switchOffButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#4A90E2"
+        android:textStyle="bold"/>
+</RelativeLayout>
